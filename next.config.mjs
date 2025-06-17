@@ -1,5 +1,5 @@
 const nextConfig = {
-  output: 'export',
+  // Remove output: 'export' - Vercel doesn't need this
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,8 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/dj-bwelli-website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/dj-bwelli-website/' : '',
+  // Remove basePath and assetPrefix - Vercel handles this automatically
 }
 
 export default nextConfig
