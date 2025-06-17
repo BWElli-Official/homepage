@@ -5,7 +5,18 @@ import Link from "next/link"
 import { Menu, X, ChevronDown } from "lucide-react"
 import { cn } from "@/lib/utils"
 
-const navItems = [
+// Define the proper TypeScript interface
+interface NavItem {
+  name: string
+  href: string
+  highlight?: boolean
+  dropdown?: Array<{
+    name: string
+    href: string
+  }>
+}
+
+const navItems: NavItem[] = [
   {
     name: "Home",
     href: "#",
