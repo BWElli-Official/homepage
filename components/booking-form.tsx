@@ -31,7 +31,7 @@ export default function BookingForm() {
       location: formData.get("location"),
       guests: formData.get("guests"),
       details: formData.get("details"),
-      to_email: "booking.bwelli@gmail.com",
+      to_email: "booking.djbwelli@gmail.com",
     }
 
     try {
