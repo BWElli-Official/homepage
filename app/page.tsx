@@ -139,7 +139,7 @@ export default function Home() {
 
               <div className="grid grid-cols-3 gap-4">
                 <a
-                  href="https://www.instagram.com/elli.neuhuber/?hl=de"
+                  href="https://www.instagram.com/djbwelliofficial/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center justify-center p-4 bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl hover:scale-105 transition-transform"
